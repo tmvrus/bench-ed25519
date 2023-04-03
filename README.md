@@ -1,5 +1,7 @@
 # bench-ed25519
 
+for message size is 1158b
+
 go test -bench . -cpu 1,2,3,4  -benchtime=1s -benchmem
 
 ```
